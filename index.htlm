@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProyecWeb - Nuestra Empresa</title>
+  <link rel="stylesheet" href="style.css">
 
+  <!-- jQuery desde CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="logo">
+      <img src="https://via.placeholder.com/120x40?text=ProyecWeb" alt="Logo ProyecWeb">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección principal -->
+  <main>
+    <section class="empresa">
+      <img src="https://via.placeholder.com/600x300?text=ProyecWeb+Get+Started" alt="Imagen Empresa">
+      <h2>Nuestra Empresa</h2>
+      <p>
+        En ProyecWeb somos una empresa dedicada a ofrecer soluciones tecnológicas modernas, 
+        pensadas para acompañar a nuestros clientes en cada paso de su transformación digital.
+      </p>
+      <p>
+        Desde este espacio podrás explorar todos nuestros servicios: diseño de páginas web, 
+        desarrollo de aplicaciones móviles, instalación de redes, mantenimiento preventivo de equipos, 
+        recuperación de datos, eliminación de virus y optimización SEO.
+      </p>
+      <p>
+        Nuestra misión es acercar las tecnologías a las personas y empresas, facilitando herramientas 
+        que impulsen su crecimiento y mejoren su rendimiento.
+      </p>
+      <button id="btn-info">Conoce más sobre nosotros</button>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 ProyecWeb - Todos los derechos reservados</p>
+    <div class="redes">
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp"></a>
+    </div>
+  </footer>
+
+  <!-- Script jQuery -->
+  <script src="script.js"></script>
+</body>
+</html>
