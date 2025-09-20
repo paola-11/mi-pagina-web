@@ -1,1 +1,71 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Encabezado */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ccc;
+  padding: 10px 20px;
+}
+header .logo img {
+  height: 40px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+  text-align: center;
+}
+main img {
+  width: 60%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+main h2 {
+  margin-top: 20px;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #444;
+}
+
+/* Footer */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+footer .redes img {
+  width: 24px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
 
